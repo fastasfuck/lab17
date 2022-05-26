@@ -10,8 +10,8 @@ provider "aws" {
   region  = "us-east-2"
 
   alias = "prod"
-  access_key = "AKIATUJQOMZMQHLUGCXX"
-  secret_key = "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"
+  access_key = ""
+  secret_key = ""
 }
 
 module "vpc_rds_creating" {
